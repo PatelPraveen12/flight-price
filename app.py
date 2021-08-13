@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open("Flight_faremodel.pkl", "rb"))
+model = pickle.load(open("flight_faremodel.pkl", "rb"))
 @app.route('/')
 def home():
     return render_template("index.html")
