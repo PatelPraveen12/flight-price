@@ -11,9 +11,9 @@
 
 
 ## Demo
-Link: [https://flight-price-prediction-api.herokuapp.com/](https://flight-price-prediction-api.herokuapp.com/)
-[![](https://i.imgur.com/R1g2wvC.png)](https://flight-price-prediction-api.herokuapp.com/)
-[![](https://i.imgur.com/p0aeL6c.png)](https://flight-price-prediction-api.herokuapp.com/)
+Link: [https://flightpriceprediction321.herokuapp.com/](https://flightpriceprediction321.herokuapp.com/)
+<img src="./static/demoindex.png">
+<img src="./static/demohome.png">
 ## Overview
 This is a Flask web app which predicts fare of Flight ticket.
 ## Motivation
@@ -30,14 +30,24 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 ## Directory Tree 
 ```
 ├── static 
-│   ├── css
+│   ├── main.css
+    ├── about.css
+    ├── contact.css
+    ├── contact.php
+    ├── contactsript.js
+    ├── index.jpg
+    ├── pic.jpg
+    ├── backgraund.jpg
 ├── template
 │   ├── home.html
+    ├── contact.html
+    ├── index.html
+    ├── about.html
 ├── Procfile
 ├── README.md
 ├── app.py
-├── flight_price.ipynb
-├── flight_rf.pkl
+├── Flight_fare_pred.ipynb
+├── flight_faremodel.pkl
 ├── requirements.txt
 ```
 ## Technologies Used
